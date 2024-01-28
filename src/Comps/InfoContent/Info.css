@@ -1,0 +1,32 @@
+.text-container{
+  text-align: left;
+  width: 80%; 
+  margin: auto;
+  padding: 30px;
+  position: relative;
+  left: 60px;
+  background-color: rgba(0, 0, 0, 0.022);
+  white-space: pre-line;
+  display: inline-block;
+}
+.text-container p {
+    font-size: 30px;
+    line-height: 1.5;
+    color:white;
+    text-indent: 0;
+    display: inline;
+    text-align:left;
+  }
+  .text-container a {
+    color:#00bfff;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size:24px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top:30px;
+    transition: color 0.3s ease;
+  }
+  .text-container a:hover{
+    color:darkgrey;
+  }

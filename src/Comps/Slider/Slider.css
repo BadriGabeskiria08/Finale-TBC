@@ -1,0 +1,48 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #292929;
+}
+
+.image-container {
+  display: flex;
+  overflow: hidden;
+  gap:100px;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+}
+
+
+
+.slider button {
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 44px;
+  cursor: pointer;
+  width: 90px;
+  color: rgb(208, 208, 208);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider button:first-child {
+  left: 30px;
+}
+
+.slider button:last-child {
+  right: 30px;
+}
+
+.slider button:hover {
+  color: #848484;
+  transition: ease 0.2s;
+}

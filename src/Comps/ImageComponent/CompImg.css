@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+  }
+  
+  .full-width {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .text-overimage,
+  .text-overimage2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .text-overimage {
+    top: 40%;
+    left: 25.5%;
+  }
+  
+  .text-overimage2 {
+    top: 65%;
+    left: 40.5%;
+    
+  }
+  
+  .text-overimage h1,
+  .text-overimage2 h1 {
+    font-size: 4vw; 
+    font-weight: bold;
+  }
+  .text-overimage2 h1 {
+    font-size: 40px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .text-overimage,
+    .text-overimage2 {
+      top: 50%; 
+    }
+  }
+  
