@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+TBCxUSAID  React პროექტი.
+
+---პროექტის სტრუქტურა- - ->
+---
+/project root/
+ / src /
+ / comps /-
+   /Cards/
+   /Footer/
+   /ImageComponent/
+   /imgs/
+   /InfoContent/
+   /Questions/
+   /Slider/
+   /Header/
+   ---
+თიბისის საიტის გვერდი დაყოფილია რამდენიმე მთავარ კომპონენტად. 
+მასზე გამოყენებული ტექნოლოგიებია:
+# React js - Hooks, Virtual Dom, Router...
+# CSS - სტილისთვის გამოყენებულია CSS -ის თანამედროვე დიზაინის პრინციპები როგორიცაა flex, flexbox ,grid
+# Responsive web design
+# ES6 - გამართული ფუნქციონალი მისი საშუაელბით.
+ --- მთავარი ფუნქციონალი ---
+ 1 Card-ების დასაგენერირებლად არ გამომიყენებია API, შევქმენი ლოკალური მასივი საჭირო ინფორმაციით.
+ 2 გვერდზე არსებული სლაიდერზე დაკლიკებით ვცვლით ფოტოებს.
+ 3  არსებულ კითხევბზე კლიკით კი იხსნება პასუხები
+ (კომპონენტებში ცვლილებების შენახვისთვის და განახლებისთვის ვიყენებ Hook - useState()-ს.)
+
+ # პროექტის გასაშვებად საჭიროა ჩავიწეროთ node modules ბრძანებით - npm install , ჩაწერის შემდეგ კი პროექტის გასაშვებად 1 ბრძანებაა საჭირო - npm start 
+ 
+ # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
